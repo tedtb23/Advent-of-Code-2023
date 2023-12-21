@@ -1,6 +1,6 @@
 import re
 
-def parseLine():
+def sumPowers():
     sumOfPowers = 0
     file = open("Games.txt", "r")
     setsRegex = "(?<=:)(.*)"
@@ -36,4 +36,4 @@ def parseLine():
 
     file.close()
 
-parseLine()
+sumPowers()
