@@ -1,6 +1,6 @@
 import re
 
-def parseLine():
+def sumGameIDs():
     gameID = 0
     gameIDSum = 0
     reds = 12
@@ -41,4 +41,4 @@ def parseLine():
 
     file.close()
 
-parseLine()
+sumGameIDs()
