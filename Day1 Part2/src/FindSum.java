@@ -16,7 +16,7 @@ public class FindSum {
         String line = scnr.nextLine();
         int sum = 0;
 
-        //nastiest shit ever
+        //use lookup instead
         Pattern s = Pattern.compile("(one|two|three|four|five|six|seven|eight|nine|ne|wo|hree|our|ive|ix|even|ight|ine)");
         Pattern i = Pattern.compile("[1-9]");
         Matcher ms = s.matcher(line);
